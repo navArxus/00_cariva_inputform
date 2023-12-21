@@ -1,0 +1,69 @@
+.form-main {
+    margin: 4% 8%;
+    width: 82%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-main-personal-detail-fileinput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.form-main-personal-detail-profile {
+    width: 48%;
+    padding: 5px;
+    border: 2px dotted rgba(128, 128, 128, 0.363);
+    background-color: rgba(128, 128, 128, 0.038);
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 450px) {
+    .form-main {
+        margin: 4% 6%;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .form-main-personal-detail-fileinput {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-main-personal-detail-profile {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+}
+
+.form-main-personal-detail-profile input {
+    margin-top: 4px;
+}
+
+.form-main-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+@media only screen and (max-width: 850px) {
+    .form-main-grid-layout {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .form-main-grid-layout {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+}
