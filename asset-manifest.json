@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/00_cariva_inputform/static/css/main.4ee51c1a.css",
+    "main.js": "/00_cariva_inputform/static/js/main.9397d13a.js",
+    "static/js/787.49233a20.chunk.js": "/00_cariva_inputform/static/js/787.49233a20.chunk.js",
+    "index.html": "/00_cariva_inputform/index.html",
+    "main.4ee51c1a.css.map": "/00_cariva_inputform/static/css/main.4ee51c1a.css.map",
+    "main.9397d13a.js.map": "/00_cariva_inputform/static/js/main.9397d13a.js.map",
+    "787.49233a20.chunk.js.map": "/00_cariva_inputform/static/js/787.49233a20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ee51c1a.css",
+    "static/js/main.9397d13a.js"
+  ]
+}
